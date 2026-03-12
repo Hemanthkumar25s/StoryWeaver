@@ -1,20 +1,62 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# StoryWeaver 📚✨
 
-# Run and deploy your AI Studio app
+StoryWeaver is a creative storytelling web application that allows users to generate and explore unique stories through a simple and interactive interface. The project demonstrates how modern web technologies can be used to build an engaging storytelling platform where users can input prompts and generate imaginative narratives easily. The goal of StoryWeaver is to provide a smooth and enjoyable storytelling experience while showcasing the implementation of frontend web development concepts such as dynamic interaction, responsive design, and structured content generation.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/08a8079a-41b6-4c22-abca-1c1f823d860b
+* Generate creative stories from user prompts
+* Clean and simple user interface
+* Interactive storytelling experience
+* Fast and lightweight web application
+* Responsive design for different screen sizes
+* Easy to use and beginner friendly
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+Frontend: HTML, CSS, JavaScript
+Tools: Git, GitHub
 
+## 📂 Project Structure
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+StoryWeaver
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+## ⚙️ Installation and Setup
+
+1. Clone the repository
+   git clone https://github.com/Hemanthkumar25s/StoryWeaver.git
+
+2. Navigate to the project folder
+   cd StoryWeaver
+
+3. Open the project
+   Open the index.html file in your browser.
+
+## 💡 Usage
+
+Open the application in a browser, enter a prompt or idea for a story, generate the story, and explore the creative narrative produced by the application.
+
+## 🌟 Future Improvements
+
+* AI-powered story generation
+* User authentication system
+* Story saving and sharing
+* Theme customization
+* Export stories as PDF
+
+## 🤝 Contributing
+
+Contributions are welcome. Fork the repository, create a new branch, make your changes, commit them, and submit a pull request.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 👨‍💻 Author
+
+Hemanth Kumar
+GitHub: https://github.com/Hemanthkumar25s
