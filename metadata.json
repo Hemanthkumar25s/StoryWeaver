@@ -1,0 +1,5 @@
+{
+  "name": "StoryWeaver",
+  "description": "A creative writing interface that generates story openings from uploaded images and reads them aloud.",
+  "requestFramePermissions": []
+}

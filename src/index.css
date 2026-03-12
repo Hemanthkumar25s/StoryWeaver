@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f5f5f0; /* Warm off-white */
+  color: #2c2c2a;
+}
+
+/* Olive accent—warm, natural */
+.olive-button {
+  background-color: #5A5A40;
+  color: white;
+  border-radius: 9999px;
+  padding: 12px 24px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease;
+}
+
+.olive-button:hover:not(:disabled) {
+  background-color: #4a4a34;
+}
+
+.olive-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Large rounded cards—feels soft */
+.card {
+  background-color: #FFFFFF;
+  border-radius: 32px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.story-text {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #3d3d3a;
+}
